@@ -24,10 +24,15 @@
 def fibonacci(n):
     p, d = 0, 1
     for i in range(n):
-        # print(i+1)
+        print(f"i: {i}")
+        print(f"p: {p}, d: {d}")
+
         p, d = d, p + d
+
+        print(f"p: {p}, d: {d}")
+        print(p)
     return p
 
-print(fibonacci(5))
+print(fibonacci(10))
 
 
