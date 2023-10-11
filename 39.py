@@ -15,4 +15,11 @@ class Matematyka:
 m = Matematyka()
 print(m.policz_obwod(5))
 print(Matematyka.dodaj(2,3))
+print(Matematyka.dodaj_i_pomnoz(2,3))
 
+ # metody działające na obiektach klasy posiadające słowo 'self'
+
+ # metody statyczne, nie posiadają słowa kluczowego i wyglądają jak każda inna metoda
+
+ # metody klasowe, używają słowa 'cls' i są świadome bycia wewnątrz klasy, nie potrzebują
+ # obiektu danej klasy, ale wiedzą, że znajdują się wewnątrz klasy
